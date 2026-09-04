@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Temporary loading sprite">
+  <circle cx="60" cy="58" r="34" fill="#F9694B" stroke="#B21C50" stroke-width="6"/>
+  <g fill="none" stroke="#B21C50" stroke-width="15" stroke-linecap="round">
+    <path d="M30 76c-12 5-20 16-22 27"/>
+    <path d="M50 88c-8 8-10 18-6 27"/>
+    <path d="M70 88c8 8 10 18 6 27"/>
+    <path d="M90 76c12 5 20 16 22 27"/>
+  </g>
+  <g fill="none" stroke="#F9694B" stroke-width="6" stroke-linecap="round">
+    <path d="M30 76c-12 5-20 16-22 27"/>
+    <path d="M50 88c-8 8-10 18-6 27"/>
+    <path d="M70 88c8 8 10 18 6 27"/>
+    <path d="M90 76c12 5 20 16 22 27"/>
+  </g>
+  <circle cx="46" cy="51" r="11" fill="#FFFFFF" stroke="#B21C50" stroke-width="4"/>
+  <circle cx="74" cy="51" r="11" fill="#FFFFFF" stroke="#B21C50" stroke-width="4"/>
+  <circle cx="46" cy="56" r="4" fill="#241A2C"/>
+  <circle cx="74" cy="56" r="4" fill="#241A2C"/>
+  <circle cx="60" cy="74" r="6" fill="#E2593C" stroke="#B21C50" stroke-width="3"/>
+</svg>
