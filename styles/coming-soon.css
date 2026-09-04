@@ -1,0 +1,26 @@
+.page-oku {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0;
+}
+
+.coming-soon {
+  text-align: center;
+}
+
+.coming-soon-label {
+  margin: 0 0 6px;
+  color: var(--ink-soft);
+  font-family: var(--font-logo);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.coming-soon-title {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 600;
+  line-height: 1.2;
+}

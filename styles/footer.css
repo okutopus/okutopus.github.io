@@ -1,0 +1,95 @@
+.site-footer {
+  background: var(--shell);
+  border-top: 1px solid var(--line);
+  padding: 40px 0 32px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 240px);
+  gap: 32px;
+  align-items: start;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-mascot {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+
+.footer-section h2 {
+  margin: 0 0 8px;
+  color: var(--ink-soft);
+  font-family: var(--font-logo);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.footer-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-section a {
+  display: inline-block;
+  min-height: 32px;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: var(--coral);
+}
+
+.footer-section a:focus-visible,
+.footer-github:focus-visible {
+  outline: 2px solid var(--coral);
+  outline-offset: 2px;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.8125rem;
+}
+
+.footer-github {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  color: var(--ink);
+}
+
+.footer-github:hover {
+  color: var(--coral);
+}
+
+.footer-github svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 56em) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}

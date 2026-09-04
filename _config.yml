@@ -1,6 +1,7 @@
----
-layout: default
 title: okutopus
 description: okutopus builds open software that adapts to many kinds of work.
----
-<main id="top"></main>
+url: https://okutopus.github.io
+baseurl: ""
+
+exclude:
+  - README.md
